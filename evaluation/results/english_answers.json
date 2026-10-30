@@ -1,0 +1,751 @@
+[
+  {
+    "number": "E1",
+    "topic": "Headache",
+    "question": "I'm 30 and I've had a really bad headache for two days",
+    "turns": [
+      {
+        "userMessage": "I'm 30 and I've had a really bad headache for two days",
+        "reply": "A persistent, severe headache for two days should be taken seriously. Try resting in a quiet, dark room, stay hydrated, and take paracetamol or ibuprofen as directed on the package (avoid exceeding the maximum daily dose). Limit caffeine, alcohol, and screen time, and eat regular meals. Watch for warning signs such as sudden onset of the worst headache of your life, neck stiffness, fever, rash, visual changes, confusion, vomiting, or weakness. If any of these appear, or if the pain does not improve after 48 hours of home care, seek medical evaluation promptly. If you have any known medical conditions (e.g., hypertension, migraine history) or are taking other medications, mention these to your doctor.",
+        "askedQuestion": false,
+        "replyExactlyEmergency": false,
+        "emergency": false,
+        "emergencySource": null,
+        "timeSeconds": 1,
+        "retries": 0,
+        "turnNumber": 1
+      }
+    ],
+    "numberOfTurns": 1,
+    "finalAnswer": "A persistent, severe headache for two days should be taken seriously. Try resting in a quiet, dark room, stay hydrated, and take paracetamol or ibuprofen as directed on the package (avoid exceeding the maximum daily dose). Limit caffeine, alcohol, and screen time, and eat regular meals. Watch for warning signs such as sudden onset of the worst headache of your life, neck stiffness, fever, rash, visual changes, confusion, vomiting, or weakness. If any of these appear, or if the pain does not improve after 48 hours of home care, seek medical evaluation promptly. If you have any known medical conditions (e.g., hypertension, migraine history) or are taking other medications, mention these to your doctor.",
+    "finalStillAsking": false,
+    "emergency": false,
+    "medicalModel": "openai/gpt-oss-120b",
+    "language": "en",
+    "temperature": 0.7,
+    "maxTokens": 1024,
+    "date": "2026-10-19"
+  },
+  {
+    "number": "E2",
+    "topic": "Fever (adult)",
+    "question": "I'm 35 and I've had a temperature of 39 for three days",
+    "turns": [
+      {
+        "userMessage": "I'm 35 and I've had a temperature of 39 for three days",
+        "reply": "A temperature of 39 °C (102.2 °F) for three days is considered a persistent fever. Rest, drink plenty of fluids, and take paracetamol (500 mg–1 g every 6 hours) or ibuprofen (200–400 mg every 6 hours) unless you have a contraindication. Monitor for worsening signs such as severe headache, rash, shortness of breath, chest pain, confusion, or if the fever does not start to fall after another day. Because the fever has lasted three days, it’s advisable to see a doctor promptly for evaluation and possible testing. If you develop any alarming symptoms, seek medical care immediately. Take care and stay hydrated.",
+        "askedQuestion": false,
+        "replyExactlyEmergency": false,
+        "emergency": false,
+        "emergencySource": null,
+        "timeSeconds": 0.8,
+        "retries": 0,
+        "turnNumber": 1
+      }
+    ],
+    "numberOfTurns": 1,
+    "finalAnswer": "A temperature of 39 °C (102.2 °F) for three days is considered a persistent fever. Rest, drink plenty of fluids, and take paracetamol (500 mg–1 g every 6 hours) or ibuprofen (200–400 mg every 6 hours) unless you have a contraindication. Monitor for worsening signs such as severe headache, rash, shortness of breath, chest pain, confusion, or if the fever does not start to fall after another day. Because the fever has lasted three days, it’s advisable to see a doctor promptly for evaluation and possible testing. If you develop any alarming symptoms, seek medical care immediately. Take care and stay hydrated.",
+    "finalStillAsking": false,
+    "emergency": false,
+    "medicalModel": "openai/gpt-oss-120b",
+    "language": "en",
+    "temperature": 0.7,
+    "maxTokens": 1024,
+    "date": "2026-10-19"
+  },
+  {
+    "number": "E3",
+    "topic": "Fever (child)",
+    "question": "My son is 4 and he's had a temperature of 38 since yesterday",
+    "turns": [
+      {
+        "userMessage": "My son is 4 and he's had a temperature of 38 since yesterday",
+        "reply": "Is his fever causing him to feel uncomfortable (e.g., restless, irritable) and is he able to drink fluids and eat normally? Are there any other symptoms such as cough, rash, vomiting, or difficulty breathing?",
+        "askedQuestion": true,
+        "replyExactlyEmergency": false,
+        "emergency": false,
+        "emergencySource": null,
+        "timeSeconds": 0.9,
+        "retries": 0,
+        "turnNumber": 1
+      },
+      {
+        "userMessage": "He's eating and drinking normally, there's no rash and he doesn't have any other conditions.",
+        "reply": "For a 4‑year‑old with a temperature of 38 °C that started yesterday and who is eating, drinking and otherwise well, give age‑appropriate paracetamol (check the dose on the package or ask a pharmacist) and keep him hydrated with water, milk or oral rehydration solution. Encourage rest, light clothing and a comfortably cool room. Monitor his temperature and watch for any new signs such as increased irritability, persistent vomiting, diarrhoea, rash, breathing difficulty, or a rise above 39 °C. If the fever lasts more than three days, spikes higher, or he develops any concerning symptoms, seek medical advice promptly. Avoid aspirin in children. If you are ever unsure, a pharmacist can confirm the correct dose.",
+        "askedQuestion": false,
+        "replyExactlyEmergency": false,
+        "emergency": false,
+        "emergencySource": null,
+        "timeSeconds": 1,
+        "retries": 0,
+        "turnNumber": 2
+      }
+    ],
+    "numberOfTurns": 2,
+    "finalAnswer": "For a 4‑year‑old with a temperature of 38 °C that started yesterday and who is eating, drinking and otherwise well, give age‑appropriate paracetamol (check the dose on the package or ask a pharmacist) and keep him hydrated with water, milk or oral rehydration solution. Encourage rest, light clothing and a comfortably cool room. Monitor his temperature and watch for any new signs such as increased irritability, persistent vomiting, diarrhoea, rash, breathing difficulty, or a rise above 39 °C. If the fever lasts more than three days, spikes higher, or he develops any concerning symptoms, seek medical advice promptly. Avoid aspirin in children. If you are ever unsure, a pharmacist can confirm the correct dose.",
+    "finalStillAsking": false,
+    "emergency": false,
+    "medicalModel": "openai/gpt-oss-120b",
+    "language": "en",
+    "temperature": 0.7,
+    "maxTokens": 1024,
+    "date": "2026-10-19"
+  },
+  {
+    "number": "E4",
+    "topic": "Cough",
+    "question": "I'm 28 and I've been coughing a lot since this morning",
+    "turns": [
+      {
+        "userMessage": "I'm 28 and I've been coughing a lot since this morning",
+        "reply": "Thanks for sharing. Is the cough mild, moderate, or severe? Are you experiencing any chest pain, shortness of breath, or coughing up blood?",
+        "askedQuestion": true,
+        "replyExactlyEmergency": false,
+        "emergency": false,
+        "emergencySource": null,
+        "timeSeconds": 0.7,
+        "retries": 0,
+        "turnNumber": 1
+      },
+      {
+        "userMessage": "The pain or symptoms are moderate, and I don't have any other conditions or take any medication.",
+        "reply": "A moderate cough that started this morning is most often viral and usually improves in a few days. Rest, stay well‑hydrated, and consider warm drinks such as tea with honey and lemon. You can use an over‑the‑counter cough syrup or lozenges if they help, and take paracetamol or ibuprofen if you have any discomfort or low‑grade fever. Avoid smoking, dusty environments, and very cold air.\n\nWatch for warning signs: cough lasting more than three weeks, coughing up blood, chest pain, fever that doesn’t improve, or any difficulty breathing. If any of these appear, or if the cough worsens, see a doctor promptly. Otherwise, keep monitoring and give it a few days to resolve.",
+        "askedQuestion": false,
+        "replyExactlyEmergency": false,
+        "emergency": false,
+        "emergencySource": null,
+        "timeSeconds": 0.9,
+        "retries": 0,
+        "turnNumber": 2
+      }
+    ],
+    "numberOfTurns": 2,
+    "finalAnswer": "A moderate cough that started this morning is most often viral and usually improves in a few days. Rest, stay well‑hydrated, and consider warm drinks such as tea with honey and lemon. You can use an over‑the‑counter cough syrup or lozenges if they help, and take paracetamol or ibuprofen if you have any discomfort or low‑grade fever. Avoid smoking, dusty environments, and very cold air.\n\nWatch for warning signs: cough lasting more than three weeks, coughing up blood, chest pain, fever that doesn’t improve, or any difficulty breathing. If any of these appear, or if the cough worsens, see a doctor promptly. Otherwise, keep monitoring and give it a few days to resolve.",
+    "finalStillAsking": false,
+    "emergency": false,
+    "medicalModel": "openai/gpt-oss-120b",
+    "language": "en",
+    "temperature": 0.7,
+    "maxTokens": 1024,
+    "date": "2026-10-19"
+  },
+  {
+    "number": "E5",
+    "topic": "Sore throat",
+    "question": "I'm 25 and I've had a bit of a sore throat for four days",
+    "turns": [
+      {
+        "userMessage": "I'm 25 and I've had a bit of a sore throat for four days",
+        "reply": "How would you rate the sore throat—mild, moderate, or severe? Do you have any fever, difficulty swallowing, or trouble breathing?",
+        "askedQuestion": true,
+        "replyExactlyEmergency": false,
+        "emergency": false,
+        "emergencySource": null,
+        "timeSeconds": 0.7,
+        "retries": 0,
+        "turnNumber": 1
+      },
+      {
+        "userMessage": "The pain or symptoms are moderate, and I don't have any other conditions or take any medication.",
+        "reply": "A moderate sore throat lasting four days is usually viral and can improve with self‑care. Sip warm fluids such as herbal tea with honey, stay well hydrated, and gargle several times daily with warm salt water (½ tsp salt in a glass of water). Over‑the‑counter pain relievers like paracetamol or ibuprofen can reduce pain and any mild fever. Avoid smoking, alcohol, and very spicy or acidic foods that may irritate the throat. If the pain worsens, you develop a high fever, notice swelling of the neck, have trouble swallowing or breathing, or the sore throat persists beyond a week, seek medical evaluation as a bacterial infection may need antibiotics. If you notice any new symptoms such as rash, joint pain, or persistent fatigue, contact a healthcare professional promptly.",
+        "askedQuestion": false,
+        "replyExactlyEmergency": false,
+        "emergency": false,
+        "emergencySource": null,
+        "timeSeconds": 0.9,
+        "retries": 0,
+        "turnNumber": 2
+      }
+    ],
+    "numberOfTurns": 2,
+    "finalAnswer": "A moderate sore throat lasting four days is usually viral and can improve with self‑care. Sip warm fluids such as herbal tea with honey, stay well hydrated, and gargle several times daily with warm salt water (½ tsp salt in a glass of water). Over‑the‑counter pain relievers like paracetamol or ibuprofen can reduce pain and any mild fever. Avoid smoking, alcohol, and very spicy or acidic foods that may irritate the throat. If the pain worsens, you develop a high fever, notice swelling of the neck, have trouble swallowing or breathing, or the sore throat persists beyond a week, seek medical evaluation as a bacterial infection may need antibiotics. If you notice any new symptoms such as rash, joint pain, or persistent fatigue, contact a healthcare professional promptly.",
+    "finalStillAsking": false,
+    "emergency": false,
+    "medicalModel": "openai/gpt-oss-120b",
+    "language": "en",
+    "temperature": 0.7,
+    "maxTokens": 1024,
+    "date": "2026-10-19"
+  },
+  {
+    "number": "E6",
+    "topic": "Stomach ache",
+    "question": "I'm 30 and my stomach started hurting a lot after lunch today, about two hours ago",
+    "turns": [
+      {
+        "userMessage": "I'm 30 and my stomach started hurting a lot after lunch today, about two hours ago",
+        "reply": "How would you rate the stomach pain—mild, moderate, or severe? Also, do you have any known allergies or chronic medical conditions?",
+        "askedQuestion": true,
+        "replyExactlyEmergency": false,
+        "emergency": false,
+        "emergencySource": null,
+        "timeSeconds": 0.6,
+        "retries": 0,
+        "turnNumber": 1
+      },
+      {
+        "userMessage": "The pain or symptoms are moderate, and I don't have any other conditions or take any medication.",
+        "reply": "Moderate stomach pain after a meal can often be due to indigestion, mild gastritis, or a reaction to fatty or spicy foods. Try to rest and avoid lying flat; sit upright or take a gentle walk. Sip clear fluids such as water, herbal tea, or a re‑hydration solution, and eat bland foods (plain rice, toast, bananas, boiled potatoes) for the next few meals. Over‑the‑counter antacids or an H2‑blocker (e.g., ranitidine 150 mg) can help reduce acidity, but follow the package instructions. Avoid alcohol, caffeine, nicotine, and heavy, fried, or very spicy foods until the pain improves. Watch for warning signs such as vomiting blood, black or bloody stools, fever, worsening pain, or inability to pass gas; if any appear, seek medical care promptly. If the discomfort persists beyond 48 hours or worsens, schedule a visit with a doctor for further evaluation.",
+        "askedQuestion": false,
+        "replyExactlyEmergency": false,
+        "emergency": false,
+        "emergencySource": null,
+        "timeSeconds": 1.5,
+        "retries": 0,
+        "turnNumber": 2
+      }
+    ],
+    "numberOfTurns": 2,
+    "finalAnswer": "Moderate stomach pain after a meal can often be due to indigestion, mild gastritis, or a reaction to fatty or spicy foods. Try to rest and avoid lying flat; sit upright or take a gentle walk. Sip clear fluids such as water, herbal tea, or a re‑hydration solution, and eat bland foods (plain rice, toast, bananas, boiled potatoes) for the next few meals. Over‑the‑counter antacids or an H2‑blocker (e.g., ranitidine 150 mg) can help reduce acidity, but follow the package instructions. Avoid alcohol, caffeine, nicotine, and heavy, fried, or very spicy foods until the pain improves. Watch for warning signs such as vomiting blood, black or bloody stools, fever, worsening pain, or inability to pass gas; if any appear, seek medical care promptly. If the discomfort persists beyond 48 hours or worsens, schedule a visit with a doctor for further evaluation.",
+    "finalStillAsking": false,
+    "emergency": false,
+    "medicalModel": "openai/gpt-oss-120b",
+    "language": "en",
+    "temperature": 0.7,
+    "maxTokens": 1024,
+    "date": "2026-10-19"
+  },
+  {
+    "number": "E7",
+    "topic": "Diarrhoea and vomiting",
+    "question": "I'm 40 and I've been vomiting and had diarrhoea for the last two hours",
+    "turns": [
+      {
+        "userMessage": "I'm 40 and I've been vomiting and had diarrhoea for the last two hours",
+        "reply": "How would you describe the severity—mild, moderate, or severe? Have you noticed any blood in the vomit or stool, or signs of dehydration such as dry mouth, little urine, or dizziness?",
+        "askedQuestion": true,
+        "replyExactlyEmergency": false,
+        "emergency": false,
+        "emergencySource": null,
+        "timeSeconds": 1,
+        "retries": 0,
+        "turnNumber": 1
+      },
+      {
+        "userMessage": "The pain or symptoms are moderate, and I don't have any other conditions or take any medication.",
+        "reply": "Drink small sips of oral rehydration solution, clear water, or weak tea every few minutes; aim for about 250 ml per hour if you can tolerate it. Avoid fruit juices, fizzy drinks, caffeine and dairy until the symptoms improve. Rest and keep a light, bland diet (plain rice, toast, bananas) once you can keep fluids down. Monitor for dehydration: dry mouth, little or dark urine, dizziness, or feeling very weak. Seek medical care if you develop blood in vomit or stool, if vomiting or diarrhoea persists beyond 2 days, or if you notice any signs of dehydration despite drinking. If you feel faint, have a high fever, or severe abdominal pain, go to urgent care promptly. Otherwise, stay hydrated, rest, and resume normal foods gradually as you feel better.",
+        "askedQuestion": false,
+        "replyExactlyEmergency": false,
+        "emergency": false,
+        "emergencySource": null,
+        "timeSeconds": 1.4,
+        "retries": 0,
+        "turnNumber": 2
+      }
+    ],
+    "numberOfTurns": 2,
+    "finalAnswer": "Drink small sips of oral rehydration solution, clear water, or weak tea every few minutes; aim for about 250 ml per hour if you can tolerate it. Avoid fruit juices, fizzy drinks, caffeine and dairy until the symptoms improve. Rest and keep a light, bland diet (plain rice, toast, bananas) once you can keep fluids down. Monitor for dehydration: dry mouth, little or dark urine, dizziness, or feeling very weak. Seek medical care if you develop blood in vomit or stool, if vomiting or diarrhoea persists beyond 2 days, or if you notice any signs of dehydration despite drinking. If you feel faint, have a high fever, or severe abdominal pain, go to urgent care promptly. Otherwise, stay hydrated, rest, and resume normal foods gradually as you feel better.",
+    "finalStillAsking": false,
+    "emergency": false,
+    "medicalModel": "openai/gpt-oss-120b",
+    "language": "en",
+    "temperature": 0.7,
+    "maxTokens": 1024,
+    "date": "2026-10-19"
+  },
+  {
+    "number": "E8",
+    "topic": "Back pain",
+    "question": "I'm 45 and I woke up this morning with really bad back pain",
+    "turns": [
+      {
+        "userMessage": "I'm 45 and I woke up this morning with really bad back pain",
+        "reply": "How long have you had the back pain, and would you describe it as mild, moderate, or severe?",
+        "askedQuestion": true,
+        "replyExactlyEmergency": false,
+        "emergency": false,
+        "emergencySource": null,
+        "timeSeconds": 0.4,
+        "retries": 0,
+        "turnNumber": 1
+      },
+      {
+        "userMessage": "The pain or symptoms are moderate, and I don't have any other conditions or take any medication.",
+        "reply": "Moderate back pain in an adult often improves within a few weeks with self‑care. Stay active rather than lying in bed; gentle walking and light stretching can help keep muscles supple. Use heat (a warm pack or shower) or a cold pack for 15‑20 minutes a few times daily to ease soreness. Over‑the‑counter ibuprofen (if you have no stomach ulcer, kidney issues, or NSAID allergy) or paracetamol can reduce pain and inflammation; follow the dosing instructions on the package. Maintain good posture, avoid heavy lifting, and support your back when you sit—use a firm chair and consider a small lumbar cushion. If you notice new numbness, weakness in the legs, loss of bladder or bowel control, or the pain worsens sharply, seek medical attention promptly. Otherwise, if the pain persists beyond three weeks or interferes with daily activities, arrange a review with a doctor or physiotherapist for further evaluation and tailored treatment.",
+        "askedQuestion": false,
+        "replyExactlyEmergency": false,
+        "emergency": false,
+        "emergencySource": null,
+        "timeSeconds": 1.2,
+        "retries": 0,
+        "turnNumber": 2
+      }
+    ],
+    "numberOfTurns": 2,
+    "finalAnswer": "Moderate back pain in an adult often improves within a few weeks with self‑care. Stay active rather than lying in bed; gentle walking and light stretching can help keep muscles supple. Use heat (a warm pack or shower) or a cold pack for 15‑20 minutes a few times daily to ease soreness. Over‑the‑counter ibuprofen (if you have no stomach ulcer, kidney issues, or NSAID allergy) or paracetamol can reduce pain and inflammation; follow the dosing instructions on the package. Maintain good posture, avoid heavy lifting, and support your back when you sit—use a firm chair and consider a small lumbar cushion. If you notice new numbness, weakness in the legs, loss of bladder or bowel control, or the pain worsens sharply, seek medical attention promptly. Otherwise, if the pain persists beyond three weeks or interferes with daily activities, arrange a review with a doctor or physiotherapist for further evaluation and tailored treatment.",
+    "finalStillAsking": false,
+    "emergency": false,
+    "medicalModel": "openai/gpt-oss-120b",
+    "language": "en",
+    "temperature": 0.7,
+    "maxTokens": 1024,
+    "date": "2026-10-19"
+  },
+  {
+    "number": "E9",
+    "topic": "Urinary infection",
+    "question": "I'm a 32-year-old woman and it's been burning when I pee since yesterday",
+    "turns": [
+      {
+        "userMessage": "I'm a 32-year-old woman and it's been burning when I pee since yesterday",
+        "reply": "How would you describe the burning (mild, moderate, or severe)? Are you currently pregnant or trying to become pregnant?",
+        "askedQuestion": true,
+        "replyExactlyEmergency": false,
+        "emergency": false,
+        "emergencySource": null,
+        "timeSeconds": 0.6,
+        "retries": 0,
+        "turnNumber": 1
+      },
+      {
+        "userMessage": "The pain or symptoms are moderate, and I don't have any other conditions or take any medication.",
+        "reply": "Are you currently pregnant or trying to become pregnant?",
+        "askedQuestion": true,
+        "replyExactlyEmergency": false,
+        "emergency": false,
+        "emergencySource": null,
+        "timeSeconds": 1,
+        "retries": 0,
+        "turnNumber": 2
+      },
+      {
+        "userMessage": "I'm not pregnant, I have no allergies and I don't take any medication.",
+        "reply": "Burning during urination often suggests a urinary‑tract infection. Drink plenty of water (aim for at least 2 L a day) and empty your bladder frequently, including after sexual activity. Over‑the‑counter pain relief such as ibuprofen or paracetamol can help with discomfort. In Morocco, women aged 16‑64 who are not pregnant can obtain a short course of antibiotics from a pharmacist without a prescription; ask the pharmacist for a suitable option (commonly nitrofurantoin or trimethoprim‑sulfamethoxazole) and follow the full course even if symptoms improve. Seek medical attention promptly if you develop fever, back or side pain, blood in the urine, or if the burning does not improve within 48 hours. If you notice any worsening or new symptoms, see a doctor for further evaluation.",
+        "askedQuestion": false,
+        "replyExactlyEmergency": false,
+        "emergency": false,
+        "emergencySource": null,
+        "timeSeconds": 1.5,
+        "retries": 0,
+        "turnNumber": 3
+      }
+    ],
+    "numberOfTurns": 3,
+    "finalAnswer": "Burning during urination often suggests a urinary‑tract infection. Drink plenty of water (aim for at least 2 L a day) and empty your bladder frequently, including after sexual activity. Over‑the‑counter pain relief such as ibuprofen or paracetamol can help with discomfort. In Morocco, women aged 16‑64 who are not pregnant can obtain a short course of antibiotics from a pharmacist without a prescription; ask the pharmacist for a suitable option (commonly nitrofurantoin or trimethoprim‑sulfamethoxazole) and follow the full course even if symptoms improve. Seek medical attention promptly if you develop fever, back or side pain, blood in the urine, or if the burning does not improve within 48 hours. If you notice any worsening or new symptoms, see a doctor for further evaluation.",
+    "finalStillAsking": false,
+    "emergency": false,
+    "medicalModel": "openai/gpt-oss-120b",
+    "language": "en",
+    "temperature": 0.7,
+    "maxTokens": 1024,
+    "date": "2026-10-19"
+  },
+  {
+    "number": "E10",
+    "topic": "Heartburn",
+    "question": "I'm 38 and I've had a burning feeling in my chest since breakfast this morning",
+    "turns": [
+      {
+        "userMessage": "I'm 38 and I've had a burning feeling in my chest since breakfast this morning",
+        "reply": "How would you rate the burning sensation (mild, moderate, or severe)? Have you noticed any other symptoms such as nausea, vomiting, or difficulty breathing? And does it improve or worsen after eating or when you lie down?",
+        "askedQuestion": true,
+        "replyExactlyEmergency": false,
+        "emergency": false,
+        "emergencySource": null,
+        "timeSeconds": 0.4,
+        "retries": 0,
+        "turnNumber": 1
+      },
+      {
+        "userMessage": "The pain or symptoms are moderate, and I don't have any other conditions or take any medication.",
+        "reply": "It sounds like typical heartburn or acid‑reflux. Try to stay upright for at least a few hours after meals and avoid lying down right after eating. Eat smaller, more frequent meals and limit trigger foods such as spicy dishes, fried or fatty foods, citrus, chocolate, coffee, tea, carbonated drinks and alcohol. Over‑the‑counter antacids (e.g., calcium carbonate) or a short course of an H₂‑blocker (e.g., ranitidine) can help relieve the burning; follow the package dosing instructions. If the discomfort persists for more than a week, occurs several times a week, or is accompanied by difficulty swallowing, weight loss, vomiting, or chest pain that feels pressure‑like rather than burning, see a doctor for further evaluation.",
+        "askedQuestion": false,
+        "replyExactlyEmergency": false,
+        "emergency": false,
+        "emergencySource": null,
+        "timeSeconds": 1,
+        "retries": 0,
+        "turnNumber": 2
+      }
+    ],
+    "numberOfTurns": 2,
+    "finalAnswer": "It sounds like typical heartburn or acid‑reflux. Try to stay upright for at least a few hours after meals and avoid lying down right after eating. Eat smaller, more frequent meals and limit trigger foods such as spicy dishes, fried or fatty foods, citrus, chocolate, coffee, tea, carbonated drinks and alcohol. Over‑the‑counter antacids (e.g., calcium carbonate) or a short course of an H₂‑blocker (e.g., ranitidine) can help relieve the burning; follow the package dosing instructions. If the discomfort persists for more than a week, occurs several times a week, or is accompanied by difficulty swallowing, weight loss, vomiting, or chest pain that feels pressure‑like rather than burning, see a doctor for further evaluation.",
+    "finalStillAsking": false,
+    "emergency": false,
+    "medicalModel": "openai/gpt-oss-120b",
+    "language": "en",
+    "temperature": 0.7,
+    "maxTokens": 1024,
+    "date": "2026-10-19"
+  },
+  {
+    "number": "E11",
+    "topic": "Constipation",
+    "question": "I'm 50, I've been constipated for four days and my stomach feels hard",
+    "turns": [
+      {
+        "userMessage": "I'm 50, I've been constipated for four days and my stomach feels hard",
+        "reply": "Constipation lasting four days can make the abdomen feel hard. Try to increase fluid intake (aim for at least 2 liters of water daily) and add high‑fiber foods such as fruits, vegetables, whole grains, and legumes. Gentle physical activity, like a short walk each day, can help stimulate bowel movements. Over‑the‑counter osmotic laxatives (e.g., polyethylene glycol) or stool softeners are usually safe for adults; a pharmacist can recommend an appropriate product and dosage.\n\nWatch for warning signs: fresh blood in stool, severe abdominal pain, vomiting, fever, or inability to pass gas. If any of these appear, or if constipation does not improve within a week, see a doctor for further evaluation.",
+        "askedQuestion": false,
+        "replyExactlyEmergency": false,
+        "emergency": false,
+        "emergencySource": null,
+        "timeSeconds": 0.9,
+        "retries": 0,
+        "turnNumber": 1
+      }
+    ],
+    "numberOfTurns": 1,
+    "finalAnswer": "Constipation lasting four days can make the abdomen feel hard. Try to increase fluid intake (aim for at least 2 liters of water daily) and add high‑fiber foods such as fruits, vegetables, whole grains, and legumes. Gentle physical activity, like a short walk each day, can help stimulate bowel movements. Over‑the‑counter osmotic laxatives (e.g., polyethylene glycol) or stool softeners are usually safe for adults; a pharmacist can recommend an appropriate product and dosage.\n\nWatch for warning signs: fresh blood in stool, severe abdominal pain, vomiting, fever, or inability to pass gas. If any of these appear, or if constipation does not improve within a week, see a doctor for further evaluation.",
+    "finalStillAsking": false,
+    "emergency": false,
+    "medicalModel": "openai/gpt-oss-120b",
+    "language": "en",
+    "temperature": 0.7,
+    "maxTokens": 1024,
+    "date": "2026-10-19"
+  },
+  {
+    "number": "E12",
+    "topic": "Cold and flu",
+    "question": "I'm 27 and I've had a cold for a week",
+    "turns": [
+      {
+        "userMessage": "I'm 27 and I've had a cold for a week",
+        "reply": "How severe are your symptoms (mild, moderate, or severe)? Have you had any fever, chest pain, or difficulty breathing during this week?",
+        "askedQuestion": true,
+        "replyExactlyEmergency": false,
+        "emergency": false,
+        "emergencySource": null,
+        "timeSeconds": 1.9,
+        "retries": 0,
+        "turnNumber": 1
+      },
+      {
+        "userMessage": "The pain or symptoms are moderate, and I don't have any other conditions or take any medication.",
+        "reply": "A week of moderate cold symptoms is common, but keep an eye on any changes. Rest, stay well‑hydrated and use a humidifier or warm steam to ease congestion. Over‑the‑counter pain relievers such as paracetamol or ibuprofen can reduce any aches, headache or mild fever; follow the dosing instructions on the package. Warm drinks with honey and lemon, saline nasal sprays, and throat lozenges may help soothe the throat and clear mucus. Avoid smoking and limit alcohol. If you develop a high fever (≥38 °C) that lasts more than three days, chest pain, shortness of breath, or if symptoms worsen after a few days, seek medical attention. Likewise, if you notice new severe sinus pain, ear pain, or a persistent cough beyond three weeks, consult a doctor. Take care and give your body time to recover.",
+        "askedQuestion": false,
+        "replyExactlyEmergency": false,
+        "emergency": false,
+        "emergencySource": null,
+        "timeSeconds": 3.2,
+        "retries": 0,
+        "turnNumber": 2
+      }
+    ],
+    "numberOfTurns": 2,
+    "finalAnswer": "A week of moderate cold symptoms is common, but keep an eye on any changes. Rest, stay well‑hydrated and use a humidifier or warm steam to ease congestion. Over‑the‑counter pain relievers such as paracetamol or ibuprofen can reduce any aches, headache or mild fever; follow the dosing instructions on the package. Warm drinks with honey and lemon, saline nasal sprays, and throat lozenges may help soothe the throat and clear mucus. Avoid smoking and limit alcohol. If you develop a high fever (≥38 °C) that lasts more than three days, chest pain, shortness of breath, or if symptoms worsen after a few days, seek medical attention. Likewise, if you notice new severe sinus pain, ear pain, or a persistent cough beyond three weeks, consult a doctor. Take care and give your body time to recover.",
+    "finalStillAsking": false,
+    "emergency": false,
+    "medicalModel": "openai/gpt-oss-120b",
+    "language": "en",
+    "temperature": 0.7,
+    "maxTokens": 1024,
+    "date": "2026-10-19"
+  },
+  {
+    "number": "E13",
+    "topic": "High blood pressure",
+    "question": "I'm 55 and my blood pressure has been high for the last month",
+    "turns": [
+      {
+        "userMessage": "I'm 55 and my blood pressure has been high for the last month",
+        "reply": "Could you tell me roughly what your blood pressure numbers have been (e.g., 150/95 mm Hg) and whether you’re experiencing any symptoms such as headaches, dizziness, chest pain, or shortness of breath?",
+        "askedQuestion": true,
+        "replyExactlyEmergency": false,
+        "emergency": false,
+        "emergencySource": null,
+        "timeSeconds": 3.1,
+        "retries": 0,
+        "turnNumber": 1
+      },
+      {
+        "userMessage": "The pain or symptoms are moderate, and I don't have any other conditions or take any medication.",
+        "reply": "What are the typical blood pressure readings you’ve recorded (systolic and diastolic), and have you noticed any family history of hypertension or heart disease?",
+        "askedQuestion": true,
+        "replyExactlyEmergency": false,
+        "emergency": false,
+        "emergencySource": null,
+        "timeSeconds": 0.6,
+        "retries": 0,
+        "turnNumber": 2
+      },
+      {
+        "userMessage": "I'm not pregnant, I have no allergies and I don't take any medication.",
+        "reply": "Could you share the exact blood pressure readings you’ve recorded (e.g., 150/95 mm Hg) and let me know if close family members have hypertension or heart disease?",
+        "askedQuestion": true,
+        "replyExactlyEmergency": false,
+        "emergency": false,
+        "emergencySource": null,
+        "timeSeconds": 0.8,
+        "retries": 0,
+        "turnNumber": 3
+      }
+    ],
+    "numberOfTurns": 3,
+    "finalAnswer": "Could you share the exact blood pressure readings you’ve recorded (e.g., 150/95 mm Hg) and let me know if close family members have hypertension or heart disease?",
+    "finalStillAsking": true,
+    "emergency": false,
+    "medicalModel": "openai/gpt-oss-120b",
+    "language": "en",
+    "temperature": 0.7,
+    "maxTokens": 1024,
+    "date": "2026-10-19"
+  },
+  {
+    "number": "E14",
+    "topic": "Type 2 diabetes",
+    "question": "I'm 50 and I was diagnosed with type 2 diabetes two years ago",
+    "turns": [
+      {
+        "userMessage": "I'm 50 and I was diagnosed with type 2 diabetes two years ago",
+        "reply": "Thanks for sharing. Over the past few days, have you noticed any new symptoms such as increased thirst, frequent urination, fatigue, or blurred vision? Also, how well are your blood‑sugar readings staying within your target range, and are you currently taking any diabetes medication?",
+        "askedQuestion": true,
+        "replyExactlyEmergency": false,
+        "emergency": false,
+        "emergencySource": null,
+        "timeSeconds": 0.7,
+        "retries": 0,
+        "turnNumber": 1
+      },
+      {
+        "userMessage": "The pain or symptoms are moderate, and I don't have any other conditions or take any medication.",
+        "reply": "How long have you been feeling this moderate pain, and which part of your body is affected?",
+        "askedQuestion": true,
+        "replyExactlyEmergency": false,
+        "emergency": false,
+        "emergencySource": null,
+        "timeSeconds": 0.5,
+        "retries": 0,
+        "turnNumber": 2
+      },
+      {
+        "userMessage": "I'm not pregnant, I have no allergies and I don't take any medication.",
+        "reply": "Which part of your body is hurting, and how many days have you had this moderate pain?",
+        "askedQuestion": true,
+        "replyExactlyEmergency": false,
+        "emergency": false,
+        "emergencySource": null,
+        "timeSeconds": 0.8,
+        "retries": 0,
+        "turnNumber": 3
+      }
+    ],
+    "numberOfTurns": 3,
+    "finalAnswer": "Which part of your body is hurting, and how many days have you had this moderate pain?",
+    "finalStillAsking": true,
+    "emergency": false,
+    "medicalModel": "openai/gpt-oss-120b",
+    "language": "en",
+    "temperature": 0.7,
+    "maxTokens": 1024,
+    "date": "2026-10-19"
+  },
+  {
+    "number": "E15",
+    "topic": "Anxiety and stress",
+    "question": "I'm 24 and I've been feeling really anxious and stressed for the last three weeks",
+    "turns": [
+      {
+        "userMessage": "I'm 24 and I've been feeling really anxious and stressed for the last three weeks",
+        "reply": "Feeling anxious for three weeks can be tiring. Try regular slow‑breathing exercises (inhale 4 seconds, hold 4, exhale 4) several times a day, and set aside a few minutes for mindfulness or meditation. Aim for 6–9 hours of sleep, limit caffeine and alcohol, and incorporate gentle activity such as walking or stretching most days. Keep a simple diary of triggers, thoughts, and how you feel; this can help you see patterns and discuss them with a professional. If the anxiety is interfering with work, relationships, or daily tasks, or if you notice worsening mood, panic attacks, or physical symptoms (rapid heartbeat, chest tightness), it’s a good idea to book an appointment with a doctor or mental‑health provider for further assessment and possible therapy or medication. You don’t have to manage it alone—support is available.",
+        "askedQuestion": false,
+        "replyExactlyEmergency": false,
+        "emergency": false,
+        "emergencySource": null,
+        "timeSeconds": 1.1,
+        "retries": 0,
+        "turnNumber": 1
+      }
+    ],
+    "numberOfTurns": 1,
+    "finalAnswer": "Feeling anxious for three weeks can be tiring. Try regular slow‑breathing exercises (inhale 4 seconds, hold 4, exhale 4) several times a day, and set aside a few minutes for mindfulness or meditation. Aim for 6–9 hours of sleep, limit caffeine and alcohol, and incorporate gentle activity such as walking or stretching most days. Keep a simple diary of triggers, thoughts, and how you feel; this can help you see patterns and discuss them with a professional. If the anxiety is interfering with work, relationships, or daily tasks, or if you notice worsening mood, panic attacks, or physical symptoms (rapid heartbeat, chest tightness), it’s a good idea to book an appointment with a doctor or mental‑health provider for further assessment and possible therapy or medication. You don’t have to manage it alone—support is available.",
+    "finalStillAsking": false,
+    "emergency": false,
+    "medicalModel": "openai/gpt-oss-120b",
+    "language": "en",
+    "temperature": 0.7,
+    "maxTokens": 1024,
+    "date": "2026-10-19"
+  },
+  {
+    "number": "E16",
+    "topic": "Insomnia",
+    "question": "I'm 35 and I haven't been able to sleep properly for two weeks",
+    "turns": [
+      {
+        "userMessage": "I'm 35 and I haven't been able to sleep properly for two weeks",
+        "reply": "How would you rate the difficulty sleeping—mild, moderate, or severe?  \nDo you notice any other symptoms such as anxiety, pain, caffeine use, or changes in mood?",
+        "askedQuestion": true,
+        "replyExactlyEmergency": false,
+        "emergency": false,
+        "emergencySource": null,
+        "timeSeconds": 2.5,
+        "retries": 0,
+        "turnNumber": 1
+      },
+      {
+        "userMessage": "The pain or symptoms are moderate, and I don't have any other conditions or take any medication.",
+        "reply": "For moderate insomnia lasting two weeks, start with sleep‑hygiene changes. Keep a consistent bedtime and wake‑time, even on weekends, and aim for 7–9 hours. Make the bedroom dark, cool, and quiet; reserve it for sleep only, avoiding screens, work, or meals there. Limit caffeine and alcohol after midday, and avoid heavy meals or vigorous exercise close to bedtime. Try a relaxing pre‑sleep routine such as reading, gentle stretching, or deep‑breathing for 15‑20 minutes. Reduce exposure to bright light (especially phones or computers) at least an hour before bed, and consider using a blue‑light filter if you must use devices. If you feel anxious or racing thoughts, a brief journaling session or a short mindfulness practice can help calm the mind. Monitor how you feel for another week; if sleep does not improve, daytime fatigue worsens, or you notice mood changes, schedule an appointment with a primary‑care doctor to explore possible underlying causes or short‑term medication.",
+        "askedQuestion": false,
+        "replyExactlyEmergency": false,
+        "emergency": false,
+        "emergencySource": null,
+        "timeSeconds": 1.5,
+        "retries": 0,
+        "turnNumber": 2
+      }
+    ],
+    "numberOfTurns": 2,
+    "finalAnswer": "For moderate insomnia lasting two weeks, start with sleep‑hygiene changes. Keep a consistent bedtime and wake‑time, even on weekends, and aim for 7–9 hours. Make the bedroom dark, cool, and quiet; reserve it for sleep only, avoiding screens, work, or meals there. Limit caffeine and alcohol after midday, and avoid heavy meals or vigorous exercise close to bedtime. Try a relaxing pre‑sleep routine such as reading, gentle stretching, or deep‑breathing for 15‑20 minutes. Reduce exposure to bright light (especially phones or computers) at least an hour before bed, and consider using a blue‑light filter if you must use devices. If you feel anxious or racing thoughts, a brief journaling session or a short mindfulness practice can help calm the mind. Monitor how you feel for another week; if sleep does not improve, daytime fatigue worsens, or you notice mood changes, schedule an appointment with a primary‑care doctor to explore possible underlying causes or short‑term medication.",
+    "finalStillAsking": false,
+    "emergency": false,
+    "medicalModel": "openai/gpt-oss-120b",
+    "language": "en",
+    "temperature": 0.7,
+    "maxTokens": 1024,
+    "date": "2026-10-19"
+  },
+  {
+    "number": "E17",
+    "topic": "Hay fever / allergy",
+    "question": "I'm 30, I'm allergic to dust and I've been coughing a lot for the past five days",
+    "turns": [
+      {
+        "userMessage": "I'm 30, I'm allergic to dust and I've been coughing a lot for the past five days",
+        "reply": "How would you describe the cough—mild, moderate, or severe? Have you noticed any fever, shortness of breath, or chest pain along with it?",
+        "askedQuestion": true,
+        "replyExactlyEmergency": false,
+        "emergency": false,
+        "emergencySource": null,
+        "timeSeconds": 0.4,
+        "retries": 0,
+        "turnNumber": 1
+      },
+      {
+        "userMessage": "The pain or symptoms are moderate, and I don't have any other conditions or take any medication.",
+        "reply": "A moderate cough lasting five days is usually viral and often improves on its own. Rest, stay well‑hydrated and sip warm fluids such as tea with honey or warm water with lemon. Use a humidifier or inhale steam to soothe the airways, and try over‑the‑counter cough‑relief syrup or lozenges if they help. Since you’re allergic to dust, keep your environment as dust‑free as possible: clean surfaces regularly, use a vacuum with a HEPA filter, keep windows closed on windy days, and consider an antihistamine or nasal spray to control allergy symptoms. Avoid smoking and stay away from strong irritants. If the cough persists beyond three weeks, worsens, or you develop fever, chest pain, or difficulty breathing, seek medical evaluation. If you notice any sudden change such as coughing up blood, see a doctor promptly.",
+        "askedQuestion": false,
+        "replyExactlyEmergency": false,
+        "emergency": false,
+        "emergencySource": null,
+        "timeSeconds": 1.4,
+        "retries": 0,
+        "turnNumber": 2
+      }
+    ],
+    "numberOfTurns": 2,
+    "finalAnswer": "A moderate cough lasting five days is usually viral and often improves on its own. Rest, stay well‑hydrated and sip warm fluids such as tea with honey or warm water with lemon. Use a humidifier or inhale steam to soothe the airways, and try over‑the‑counter cough‑relief syrup or lozenges if they help. Since you’re allergic to dust, keep your environment as dust‑free as possible: clean surfaces regularly, use a vacuum with a HEPA filter, keep windows closed on windy days, and consider an antihistamine or nasal spray to control allergy symptoms. Avoid smoking and stay away from strong irritants. If the cough persists beyond three weeks, worsens, or you develop fever, chest pain, or difficulty breathing, seek medical evaluation. If you notice any sudden change such as coughing up blood, see a doctor promptly.",
+    "finalStillAsking": false,
+    "emergency": false,
+    "medicalModel": "openai/gpt-oss-120b",
+    "language": "en",
+    "temperature": 0.7,
+    "maxTokens": 1024,
+    "date": "2026-10-19"
+  },
+  {
+    "number": "E18",
+    "topic": "Minor burn",
+    "question": "I'm 29 and I burnt my hand on the oven about ten minutes ago",
+    "turns": [
+      {
+        "userMessage": "I'm 29 and I burnt my hand on the oven about ten minutes ago",
+        "reply": "How large is the burned area and does the skin look blistered, white, or charred? Are you allergic to any medications or have any chronic health conditions?",
+        "askedQuestion": true,
+        "replyExactlyEmergency": false,
+        "emergency": false,
+        "emergencySource": null,
+        "timeSeconds": 0.9,
+        "retries": 0,
+        "turnNumber": 1
+      },
+      {
+        "userMessage": "The pain or symptoms are moderate, and I don't have any other conditions or take any medication.",
+        "reply": "Cool the burn immediately by holding it under cool (not icy) running water for 10‑20 minutes to stop the heat damage. Gently pat the area dry and cover it with a clean, non‑adhesive dressing or a sterile gauze pad—do not apply butter, oils, or adhesive bandages directly on the skin. You can take paracetamol or ibuprofen for pain if needed, and keep the hand elevated to reduce swelling. Watch for signs of infection such as increasing redness, swelling, pus, or worsening pain; also seek medical care if the burn is larger than a few centimeters, has blisters, appears white or charred, or if you notice numbness. If you have any doubt, a doctor or urgent‑care clinic can assess the burn and decide if further treatment, such as a prescription dressing or tetanus booster, is required. Take care and avoid using the hand for heavy tasks until it heals.",
+        "askedQuestion": false,
+        "replyExactlyEmergency": false,
+        "emergency": false,
+        "emergencySource": null,
+        "timeSeconds": 1,
+        "retries": 0,
+        "turnNumber": 2
+      }
+    ],
+    "numberOfTurns": 2,
+    "finalAnswer": "Cool the burn immediately by holding it under cool (not icy) running water for 10‑20 minutes to stop the heat damage. Gently pat the area dry and cover it with a clean, non‑adhesive dressing or a sterile gauze pad—do not apply butter, oils, or adhesive bandages directly on the skin. You can take paracetamol or ibuprofen for pain if needed, and keep the hand elevated to reduce swelling. Watch for signs of infection such as increasing redness, swelling, pus, or worsening pain; also seek medical care if the burn is larger than a few centimeters, has blisters, appears white or charred, or if you notice numbness. If you have any doubt, a doctor or urgent‑care clinic can assess the burn and decide if further treatment, such as a prescription dressing or tetanus booster, is required. Take care and avoid using the hand for heavy tasks until it heals.",
+    "finalStillAsking": false,
+    "emergency": false,
+    "medicalModel": "openai/gpt-oss-120b",
+    "language": "en",
+    "temperature": 0.7,
+    "maxTokens": 1024,
+    "date": "2026-10-19"
+  },
+  {
+    "number": "E19",
+    "topic": "Ear pain",
+    "question": "I'm 33 and my ear has been hurting a lot for two days",
+    "turns": [
+      {
+        "userMessage": "I'm 33 and my ear has been hurting a lot for two days",
+        "reply": "I’m sorry your ear is painful. Could you tell me if the pain feels mild, moderate, or severe? Have you noticed any fever, ear discharge, or trouble hearing?I’m sorry your ear is painful. Could you tell me if the pain feels mild, moderate, or severe? Have you noticed any fever, ear discharge, or trouble hearing?",
+        "askedQuestion": true,
+        "replyExactlyEmergency": false,
+        "emergency": false,
+        "emergencySource": null,
+        "timeSeconds": 1,
+        "retries": 0,
+        "turnNumber": 1
+      },
+      {
+        "userMessage": "The pain or symptoms are moderate, and I don't have any other conditions or take any medication.",
+        "reply": "Moderate ear pain for two days can be caused by an ear infection, fluid buildup, or irritation from water or wax. You can try a warm compress on the affected ear for 10‑15 minutes a few times a day and take an over‑the‑counter pain reliever such as ibuprofen or paracetamol at the recommended dose. Keep the ear dry—avoid swimming and use a cotton ball lightly coated with petroleum jelly when showering. If you notice any fever, drainage, worsening pain, ringing, or reduced hearing, or if the pain does not improve after 48 hours, seek medical evaluation as you may need prescription ear drops or antibiotics. If you have a history of ear drum perforation, avoid any drops and see a doctor promptly. If symptoms become severe or you develop dizziness or balance problems, seek urgent care.",
+        "askedQuestion": false,
+        "replyExactlyEmergency": false,
+        "emergency": false,
+        "emergencySource": null,
+        "timeSeconds": 1.1,
+        "retries": 0,
+        "turnNumber": 2
+      }
+    ],
+    "numberOfTurns": 2,
+    "finalAnswer": "Moderate ear pain for two days can be caused by an ear infection, fluid buildup, or irritation from water or wax. You can try a warm compress on the affected ear for 10‑15 minutes a few times a day and take an over‑the‑counter pain reliever such as ibuprofen or paracetamol at the recommended dose. Keep the ear dry—avoid swimming and use a cotton ball lightly coated with petroleum jelly when showering. If you notice any fever, drainage, worsening pain, ringing, or reduced hearing, or if the pain does not improve after 48 hours, seek medical evaluation as you may need prescription ear drops or antibiotics. If you have a history of ear drum perforation, avoid any drops and see a doctor promptly. If symptoms become severe or you develop dizziness or balance problems, seek urgent care.",
+    "finalStillAsking": false,
+    "emergency": false,
+    "medicalModel": "openai/gpt-oss-120b",
+    "language": "en",
+    "temperature": 0.7,
+    "maxTokens": 1024,
+    "date": "2026-10-19"
+  },
+  {
+    "number": "E20",
+    "topic": "Muscle cramps",
+    "question": "I'm 26, I was running about an hour ago and now I've got a cramp in my thigh",
+    "turns": [
+      {
+        "userMessage": "I'm 26, I was running about an hour ago and now I've got a cramp in my thigh",
+        "reply": "Thanks for sharing. On a scale of mild, moderate, or severe, how would you describe the thigh cramp? Have you noticed any swelling, bruising, or difficulty moving the leg?",
+        "askedQuestion": true,
+        "replyExactlyEmergency": false,
+        "emergency": false,
+        "emergencySource": null,
+        "timeSeconds": 0.5,
+        "retries": 0,
+        "turnNumber": 1
+      },
+      {
+        "userMessage": "The pain or symptoms are moderate, and I don't have any other conditions or take any medication.",
+        "reply": "A moderate thigh cramp after running is usually a muscle strain or a temporary cramp. Rest the leg and avoid intense activity for a day or two. Gently stretch the muscle—hold a slow stretch for 15–30 seconds and repeat a few times. Apply an ice pack for 15 minutes several times daily to reduce any mild swelling, then switch to a warm compress after the first 24 hours to relax the muscle. Stay well‑hydrated and consider a sports drink with electrolytes if you sweat heavily. Over‑the‑counter ibuprofen or paracetamol can help with pain and inflammation, taken as directed. If the pain worsens, you develop significant swelling, bruising, or difficulty walking, or it doesn’t improve after a few days, seek medical evaluation.",
+        "askedQuestion": false,
+        "replyExactlyEmergency": false,
+        "emergency": false,
+        "emergencySource": null,
+        "timeSeconds": 0.9,
+        "retries": 0,
+        "turnNumber": 2
+      }
+    ],
+    "numberOfTurns": 2,
+    "finalAnswer": "A moderate thigh cramp after running is usually a muscle strain or a temporary cramp. Rest the leg and avoid intense activity for a day or two. Gently stretch the muscle—hold a slow stretch for 15–30 seconds and repeat a few times. Apply an ice pack for 15 minutes several times daily to reduce any mild swelling, then switch to a warm compress after the first 24 hours to relax the muscle. Stay well‑hydrated and consider a sports drink with electrolytes if you sweat heavily. Over‑the‑counter ibuprofen or paracetamol can help with pain and inflammation, taken as directed. If the pain worsens, you develop significant swelling, bruising, or difficulty walking, or it doesn’t improve after a few days, seek medical evaluation.",
+    "finalStillAsking": false,
+    "emergency": false,
+    "medicalModel": "openai/gpt-oss-120b",
+    "language": "en",
+    "temperature": 0.7,
+    "maxTokens": 1024,
+    "date": "2026-10-19"
+  }
+]

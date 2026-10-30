@@ -1,0 +1,80 @@
+[
+  {
+    "number": "E13",
+    "topic": "High blood pressure",
+    "question": "I'm 55 and my blood pressure has been high for the last month",
+    "turns": [
+      {
+        "userMessage": "I'm 55 and my blood pressure has been high for the last month",
+        "reply": "How would you describe your blood pressure readings (mild, moderate or severe elevation), and are you experiencing any symptoms such as headaches, chest pain, shortness of breath, or dizziness?",
+        "askedQuestion": true,
+        "replyExactlyEmergency": false,
+        "emergency": false,
+        "emergencySource": null,
+        "timeSeconds": 1.3,
+        "retries": 0,
+        "turnNumber": 1
+      },
+      {
+        "userMessage": "My readings at home have been around 150/95. My father has high blood pressure. I don't have headaches, dizziness or chest pain.",
+        "reply": "These symptoms sound serious. Call emergency services immediately — SAMU on 15 in Morocco, or 999 in the UK. Do not wait.",
+        "askedQuestion": false,
+        "replyExactlyEmergency": false,
+        "emergency": true,
+        "emergencySource": "keyword",
+        "timeSeconds": 0,
+        "retries": 0,
+        "turnNumber": 2
+      }
+    ],
+    "numberOfTurns": 2,
+    "finalAnswer": "These symptoms sound serious. Call emergency services immediately — SAMU on 15 in Morocco, or 999 in the UK. Do not wait.",
+    "finalStillAsking": false,
+    "reachedAdvice": false,
+    "emergency": true,
+    "medicalModel": "openai/gpt-oss-120b",
+    "language": "en",
+    "temperature": 0.7,
+    "maxTokens": 1024,
+    "date": "2026-10-19"
+  },
+  {
+    "number": "E14",
+    "topic": "Type 2 diabetes",
+    "question": "I'm 50 and I was diagnosed with type 2 diabetes two years ago",
+    "turns": [
+      {
+        "userMessage": "I'm 50 and I was diagnosed with type 2 diabetes two years ago",
+        "reply": "Thanks for sharing. Are you currently experiencing any symptoms such as increased thirst, frequent urination, fatigue, or any new pain? If so, how long have they been present and would you rate them mild, moderate, or severe?",
+        "askedQuestion": true,
+        "replyExactlyEmergency": false,
+        "emergency": false,
+        "emergencySource": null,
+        "timeSeconds": 0.8,
+        "retries": 0,
+        "turnNumber": 1
+      },
+      {
+        "userMessage": "I don't have any pain or new symptoms. I manage it with diet only, and my blood sugar is usually between 7 and 10 mmol/L. I just want advice on how to manage it better.",
+        "reply": "Managing type 2 diabetes with diet alone works best when you combine balanced meals, regular activity, and consistent monitoring. Aim for a fasting glucose around 4‑7 mmol/L and post‑meal below 10 mmol/L; your current range suggests room for improvement. Fill half your plate with non‑starchy vegetables, a quarter with lean protein (fish, poultry, legumes), and a quarter with whole grains or starchy carbs, keeping portion sizes modest. Choose low‑glycemic foods such as whole‑grain bread, brown rice, beans, and most fruits, and limit sugary drinks, refined pastries, and excessive saturated fat. Spread carbohydrate intake evenly across meals to avoid spikes, and consider adding a small healthy fat (olive oil, nuts) to each meal to slow absorption.\n\nAim for at least 150 minutes of moderate aerobic activity weekly—brisk walking, cycling, or swimming—plus two sessions of strength training to improve insulin sensitivity. Check your blood glucose regularly (e.g., fasting and 2 hours after meals) to see how foods and activity affect levels, and keep a log.\n\nStay hydrated, get 7–9 hours of sleep, manage stress with relaxation techniques, and have your HbA1c checked every 3–6 months. If readings consistently stay above 8 mmol/L or you notice symptoms (increased thirst, frequent urination, fatigue), discuss medication options with your doctor. Regular eye, foot, and kidney checks are also important.",
+        "askedQuestion": false,
+        "replyExactlyEmergency": false,
+        "emergency": false,
+        "emergencySource": null,
+        "timeSeconds": 1.3,
+        "retries": 0,
+        "turnNumber": 2
+      }
+    ],
+    "numberOfTurns": 2,
+    "finalAnswer": "Managing type 2 diabetes with diet alone works best when you combine balanced meals, regular activity, and consistent monitoring. Aim for a fasting glucose around 4‑7 mmol/L and post‑meal below 10 mmol/L; your current range suggests room for improvement. Fill half your plate with non‑starchy vegetables, a quarter with lean protein (fish, poultry, legumes), and a quarter with whole grains or starchy carbs, keeping portion sizes modest. Choose low‑glycemic foods such as whole‑grain bread, brown rice, beans, and most fruits, and limit sugary drinks, refined pastries, and excessive saturated fat. Spread carbohydrate intake evenly across meals to avoid spikes, and consider adding a small healthy fat (olive oil, nuts) to each meal to slow absorption.\n\nAim for at least 150 minutes of moderate aerobic activity weekly—brisk walking, cycling, or swimming—plus two sessions of strength training to improve insulin sensitivity. Check your blood glucose regularly (e.g., fasting and 2 hours after meals) to see how foods and activity affect levels, and keep a log.\n\nStay hydrated, get 7–9 hours of sleep, manage stress with relaxation techniques, and have your HbA1c checked every 3–6 months. If readings consistently stay above 8 mmol/L or you notice symptoms (increased thirst, frequent urination, fatigue), discuss medication options with your doctor. Regular eye, foot, and kidney checks are also important.",
+    "finalStillAsking": false,
+    "reachedAdvice": true,
+    "emergency": false,
+    "medicalModel": "openai/gpt-oss-120b",
+    "language": "en",
+    "temperature": 0.7,
+    "maxTokens": 1024,
+    "date": "2026-10-19"
+  }
+]

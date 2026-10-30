@@ -1,0 +1,42 @@
+[
+  {
+    "number": "E13",
+    "topic": "High blood pressure",
+    "question": "I'm 55 and my blood pressure has been high for the last month",
+    "turns": [
+      {
+        "userMessage": "I'm 55 and my blood pressure has been high for the last month",
+        "reply": "Do you notice any symptoms such as headaches, chest pain, shortness of breath, or dizziness? Also, would you describe your blood pressure readings as mildly elevated (e.g., 130‑139/80‑89 mmHg) or more severe (140/90 mmHg or higher)?",
+        "askedQuestion": true,
+        "replyExactlyEmergency": false,
+        "emergency": false,
+        "emergencySource": null,
+        "timeSeconds": 1.4,
+        "retries": 0,
+        "turnNumber": 1
+      },
+      {
+        "userMessage": "No symptoms at all. My home readings have been around 150/95 mmHg for the past month.",
+        "reply": "Your readings of 150/95 mmHg are in the stage 2 hypertension range. Even without symptoms, sustained high blood pressure can damage your heart, kidneys and blood vessels over time.\n\nStart with lifestyle changes: reduce salt intake (aim for less than 5 g per day), eat plenty of fruits, vegetables, whole grains and lean proteins, limit processed foods and sugary drinks, avoid excess alcohol, quit smoking if you do, and aim for at least 150 minutes of moderate‑intensity exercise each week (e.g., brisk walking). Keep a log of your blood pressure at different times of day and share it with a healthcare professional.\n\nBecause the level is above 140/90 mmHg for a month, you should book an appointment with a doctor to discuss whether medication is needed and to assess any other risk factors. In the meantime, monitor your readings regularly and follow the dietary and activity recommendations. If you develop headaches, chest pain, shortness of breath, vision changes, or sudden swelling, seek medical attention promptly.",
+        "askedQuestion": false,
+        "replyExactlyEmergency": false,
+        "emergency": false,
+        "emergencySource": null,
+        "timeSeconds": 1.1,
+        "retries": 0,
+        "turnNumber": 2
+      }
+    ],
+    "numberOfTurns": 2,
+    "finalAnswer": "Your readings of 150/95 mmHg are in the stage 2 hypertension range. Even without symptoms, sustained high blood pressure can damage your heart, kidneys and blood vessels over time.\n\nStart with lifestyle changes: reduce salt intake (aim for less than 5 g per day), eat plenty of fruits, vegetables, whole grains and lean proteins, limit processed foods and sugary drinks, avoid excess alcohol, quit smoking if you do, and aim for at least 150 minutes of moderate‑intensity exercise each week (e.g., brisk walking). Keep a log of your blood pressure at different times of day and share it with a healthcare professional.\n\nBecause the level is above 140/90 mmHg for a month, you should book an appointment with a doctor to discuss whether medication is needed and to assess any other risk factors. In the meantime, monitor your readings regularly and follow the dietary and activity recommendations. If you develop headaches, chest pain, shortness of breath, vision changes, or sudden swelling, seek medical attention promptly.",
+    "finalStillAsking": false,
+    "reachedAdvice": true,
+    "emergency": false,
+    "emergencyTrigger": null,
+    "medicalModel": "openai/gpt-oss-120b",
+    "language": "en",
+    "temperature": 0.7,
+    "maxTokens": 1024,
+    "date": "2026-10-19"
+  }
+]

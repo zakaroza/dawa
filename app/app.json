@@ -1,0 +1,41 @@
+{
+  "expo": {
+    "name": "Darija Medical Assistant",
+    "slug": "darija-medical-assistant",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#1a5276"
+    },
+    "ios": {
+      "supportsTablet": false,
+      "infoPlist": {
+        "NSCameraUsageDescription": "This app needs camera access to scan medicine barcodes."
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#1a5276"
+      },
+      "permissions": [
+        "CAMERA"
+      ]
+    },
+    "plugins": [
+      [
+        "expo-camera",
+        {
+          "cameraPermission": "This app needs camera access to scan medicine barcodes."
+        }
+      ],
+      "expo-status-bar",
+      "expo-audio",
+      "@react-native-community/datetimepicker"
+    ]
+  }
+}

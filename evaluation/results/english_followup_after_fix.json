@@ -1,0 +1,41 @@
+[
+  {
+    "number": "E13",
+    "topic": "High blood pressure",
+    "question": "I'm 55 and my blood pressure has been high for the last month",
+    "turns": [
+      {
+        "userMessage": "I'm 55 and my blood pressure has been high for the last month",
+        "reply": "Do you have any symptoms such as headaches, dizziness, chest pain, shortness of breath, or vision changes? Also, are you currently taking any blood‑pressure medication or have any other chronic conditions?",
+        "askedQuestion": true,
+        "replyExactlyEmergency": false,
+        "emergency": false,
+        "emergencySource": null,
+        "timeSeconds": 0.9,
+        "retries": 0,
+        "turnNumber": 1
+      },
+      {
+        "userMessage": "My readings at home have been around 150/95. My father has high blood pressure. I don't have headaches, dizziness or chest pain.",
+        "reply": "Your blood pressure is in the stage‑2 range (150/95 mmHg). Even without symptoms, sustained high readings can increase the risk of heart disease and stroke, especially with a family history.\n\nStart with lifestyle changes: reduce salt intake (aim for < 5 g per day), eat plenty of fruits, vegetables, whole grains and lean protein, limit processed and high‑fat foods, avoid excess alcohol, quit smoking if applicable, and aim for 150 minutes of moderate‑intensity activity each week. Monitor your weight and try to keep a healthy BMI. Check your BP twice daily (morning and evening) for a week and keep a log.\n\nBecause the reading is consistently high, schedule an appointment with a healthcare provider to discuss whether medication is needed and to rule out secondary causes. Follow up if you develop any new symptoms such as headaches, dizziness, chest pain, or vision changes.",
+        "askedQuestion": false,
+        "replyExactlyEmergency": false,
+        "emergency": false,
+        "emergencySource": null,
+        "timeSeconds": 1,
+        "retries": 0,
+        "turnNumber": 2
+      }
+    ],
+    "numberOfTurns": 2,
+    "finalAnswer": "Your blood pressure is in the stage‑2 range (150/95 mmHg). Even without symptoms, sustained high readings can increase the risk of heart disease and stroke, especially with a family history.\n\nStart with lifestyle changes: reduce salt intake (aim for < 5 g per day), eat plenty of fruits, vegetables, whole grains and lean protein, limit processed and high‑fat foods, avoid excess alcohol, quit smoking if applicable, and aim for 150 minutes of moderate‑intensity activity each week. Monitor your weight and try to keep a healthy BMI. Check your BP twice daily (morning and evening) for a week and keep a log.\n\nBecause the reading is consistently high, schedule an appointment with a healthcare provider to discuss whether medication is needed and to rule out secondary causes. Follow up if you develop any new symptoms such as headaches, dizziness, chest pain, or vision changes.",
+    "finalStillAsking": false,
+    "reachedAdvice": true,
+    "emergency": false,
+    "medicalModel": "openai/gpt-oss-120b",
+    "language": "en",
+    "temperature": 0.7,
+    "maxTokens": 1024,
+    "date": "2026-10-19"
+  }
+]

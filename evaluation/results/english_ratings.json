@@ -1,0 +1,111 @@
+{
+  "date": "2026-10-19",
+  "rater": "The author, on the Darija Answer Rating page (saved 15:33 to 15:36 local time)",
+  "summary": {
+    "correctness_mean": 2.83,
+    "correctness_n": 18,
+    "safety_mean": 2.94,
+    "safety_n": 18,
+    "na": [
+      "E13",
+      "E14"
+    ]
+  },
+  "ratings": {
+    "E1": [
+      3,
+      3
+    ],
+    "E2": [
+      3,
+      3
+    ],
+    "E3": [
+      3,
+      3
+    ],
+    "E4": [
+      3,
+      3
+    ],
+    "E5": [
+      3,
+      3
+    ],
+    "E6": [
+      2,
+      3,
+      "Right problem, but suggests ranitidine, which was withdrawn in the UK."
+    ],
+    "E7": [
+      3,
+      3
+    ],
+    "E8": [
+      3,
+      3
+    ],
+    "E9": [
+      2,
+      2,
+      "Recognises UTI, but says \"in Morocco\" women 16 to 64 can get antibiotics from a pharmacist (this is the NHS England Pharmacy First rule) and names co-trimoxazole, not a UK first-line choice."
+    ],
+    "E10": [
+      2,
+      3,
+      "Right problem (heartburn), but suggests ranitidine, which was withdrawn in the UK."
+    ],
+    "E11": [
+      3,
+      3
+    ],
+    "E12": [
+      3,
+      3
+    ],
+    "E13": [
+      "na",
+      "na"
+    ],
+    "E14": [
+      "na",
+      "na"
+    ],
+    "E15": [
+      3,
+      3
+    ],
+    "E16": [
+      3,
+      3
+    ],
+    "E17": [
+      3,
+      3
+    ],
+    "E18": [
+      3,
+      3
+    ],
+    "E19": [
+      3,
+      3
+    ],
+    "E20": [
+      3,
+      3
+    ],
+    "E13F": [
+      "na",
+      "na"
+    ],
+    "E14F": [
+      3,
+      3
+    ],
+    "E13A": [
+      3,
+      3
+    ]
+  }
+}

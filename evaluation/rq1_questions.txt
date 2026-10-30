@@ -1,0 +1,43 @@
+# RQ1 Darija quality test: 20 topics, each asked twice with the same meaning:
+#   a = Franco-Arabic, b = Arabic script.
+# Question is everything after the last "|". Lines starting with # are ignored.
+1a | Headache | Franco-Arabic | rasi kaydrni bzaf hadi yomayn
+1b | Headache | Arabic script | راسي كيضرني بزاف هادي يومين
+2a | Fever (adult) | Franco-Arabic | hadi 3 yam ou skhana wasla liya l 39
+2b | Fever (adult) | Arabic script | هادي 3 يام و السخانة واصلة ليا ل 39
+3a | Fever (child) | Franco-Arabic | wldi sghir mn lbareh ou houwa skhana wasla l 38
+3b | Fever (child) | Arabic script | ولدي صغير من البارح و هو السخانة واصلة ل 38
+4a | Cough | Franco-Arabic | mn sba7 ou ana fiya lk7a bjehd
+4b | Cough | Arabic script | من الصباح و أنا فيا الكحة بجهد
+5a | Sore throat | Franco-Arabic | fiya l7la9m chwia hadi 4 yam
+5b | Sore throat | Arabic script | فيا الحلاقم شوية هادي 4 يام
+6a | Stomach ache | Franco-Arabic | 9bila mora matghdit krchi wlat kadrni bzf
+6b | Stomach ache | Arabic script | قبيلة مورا ما تغديت كرشي ولات كاضرني بزاف
+7a | Diarrhoea and vomiting | Franco-Arabic | hadi sa3tayn ou ana kant9ya ou fiya ishal
+7b | Diarrhoea and vomiting | Arabic script | هادي ساعتين و أنا كنتقيا و فيا الإسهال
+8a | Back pain | Franco-Arabic | f9t lyouma sbah ou dhri kaydrni bzf
+8b | Back pain | Arabic script | فقت اليوما الصباح و ضهري كيضرني بزاف
+9a | Urinary infection (UTI) | Franco-Arabic | 9bila mni mchit nboul jani 7riq ou ana kanboul
+9b | Urinary infection (UTI) | Arabic script | قبيلة مني مشيت نبول جاني الحريق و أنا كنبول
+10a | Heartburn | Franco-Arabic | mni ftrt sbah ou m3da dyali kadrni bzf
+10b | Heartburn | Arabic script | مني فطرت الصباح و المعدة ديالي كاضرني بزاف
+11a | Constipation | Franco-Arabic | krchi 9as7a ou fiya l9abd
+11b | Constipation | Arabic script | كرشي قاسحة و فيا القبض
+12a | Cold and flu | Franco-Arabic | hadi simana ou fiya rwa7
+12b | Cold and flu | Arabic script | هادي سيمانة و فيا الرواح
+13a | High blood pressure | Franco-Arabic | 3ndi daght dem tale3
+13b | High blood pressure | Arabic script | عندي ضغط الدم طالع
+14a | Type 2 diabetes | Franco-Arabic | 3ndi sokkar mn naw3 tani
+14b | Type 2 diabetes | Arabic script | عندي السكر من النوع الثاني
+15a | Anxiety and stress | Franco-Arabic | Kan7ess b l9la9 w stress bzaf
+15b | Anxiety and stress | Arabic script | كنحس بالقلق و الستريس بزاف
+16a | Insomnia | Franco-Arabic | hadi simana makan9drch n3es blil
+16b | Insomnia | Arabic script | هادي سيمانة ما كنقدرش نعس بالليل
+17a | Hay fever / allergy | Franco-Arabic | 3ndi 7asasiya mn lghobra ou had lyamat wlit kank7 bzf
+17b | Hay fever / allergy | Arabic script | عندي حساسية من الغبرة و هاد اليامات وليت كنكح بزاف
+18a | Minor burn | Franco-Arabic | 9bila knt kantyb ou ana nt7rq wa7d l7rqa sghira
+18b | Minor burn | Arabic script | قبيلة كنت كنطيب و أنا نتحرق واحد الحرقة صغيرة
+19a | Ear pain | Franco-Arabic | Wedni katdreni bzaf hadi yomayn
+19b | Ear pain | Arabic script | ودني كاضرني بزاف هادي يومين
+20a | Muscle cramps | Franco-Arabic | 9bila knt kanjri ou mni dkhlt ldar kan7s bles cramps lfkhd dyali
+20b | Muscle cramps | Arabic script | قبيلة كنت كنجري و مني دخلت للدار كنحس بالكرومب فالفخد ديالي
