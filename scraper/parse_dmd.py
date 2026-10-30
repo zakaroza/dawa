@@ -32,7 +32,7 @@ def normalize_gtin_to_ean13(gtin):
     return None
 
 def main(dmd_folder):
-    # ── 1. VTM: vtmid → ingredient name ──────────────────────────────────────
+    # 1. VTM: vtmid → ingredient name
     vtm_file = next(f for f in os.listdir(dmd_folder) if f.startswith('f_vtm2'))
     root = parse_file(os.path.join(dmd_folder, vtm_file))
     vtm_map = {}  # vtmid -> name
@@ -43,7 +43,7 @@ def main(dmd_folder):
             vtm_map[vtmid] = nm
     print(f"  {len(vtm_map)} active ingredients loaded")
 
-    # ── 2. VMP: vpid → {name, active_ingredient} ─────────────────────────────
+    # 2. VMP: vpid → {name, active_ingredient}
     vmp_file = next(f for f in os.listdir(dmd_folder) if f.startswith('f_vmp2'))
     root = parse_file(os.path.join(dmd_folder, vmp_file))
     vmp_map = {}  # vpid -> {name, active_ingredient}
@@ -56,7 +56,7 @@ def main(dmd_folder):
             vmp_map[vpid] = {'name': nm, 'active_ingredient': ingredient}
     print(f"  {len(vmp_map)} virtual medicinal products loaded")
 
-    # ── 3. AMP: apid → {name, vpid, manufacturer_code} ──────────────────────
+    # 3. AMP: apid → {name, vpid, manufacturer_code}
     amp_file = next(f for f in os.listdir(dmd_folder) if f.startswith('f_amp2'))
     root = parse_file(os.path.join(dmd_folder, amp_file))
     amp_map = {}  # apid -> {name, vpid, suppcd}
@@ -75,7 +75,7 @@ def main(dmd_folder):
             amp_map[apid] = {'name': nm, 'vpid': vpid, 'manufacturer': mfr}
     print(f"  {len(amp_map)} actual medicinal products loaded")
 
-    # ── 4. AMPP: appid → apid ────────────────────────────────────────────────
+    # 4. AMPP: appid → apid
     ampp_file = next(f for f in os.listdir(dmd_folder) if f.startswith('f_ampp2'))
     root = parse_file(os.path.join(dmd_folder, ampp_file))
     ampp_map = {}  # appid -> apid
@@ -86,7 +86,7 @@ def main(dmd_folder):
             ampp_map[appid] = apid
     print(f"  {len(ampp_map)} actual medicinal product packs loaded")
 
-    # ── 5. GTIN: amppid → list of EAN-13 barcodes ────────────────────────────
+    # 5. GTIN: amppid → list of EAN-13 barcodes
     gtin_file = next(f for f in os.listdir(dmd_folder) if f.startswith('f_gtin2'))
     root = parse_file(os.path.join(dmd_folder, gtin_file))
     gtin_map = {}  # amppid -> ean13 (take the latest active one without an ENDDT)
@@ -110,7 +110,7 @@ def main(dmd_folder):
             gtin_map[amppid] = chosen
     print(f"  {len(gtin_map)} GTINs (EAN-13 barcodes) loaded")
 
-    # ── 6. Build nhs_medicines.json ───────────────────────────────────────────
+    # 6. Build nhs_medicines.json
     # One entry per unique (name, active_ingredient) pair from AMP+VMP
     seen = set()
     medicines = []
@@ -134,7 +134,7 @@ def main(dmd_folder):
         })
     print(f"  {len(medicines)} unique medicines built")
 
-    # ── 7. Build nhs_barcodes.json ────────────────────────────────────────────
+    # 7. Build nhs_barcodes.json
     barcodes = []
     seen_ean = set()
     for amppid, ean13 in gtin_map.items():
@@ -158,7 +158,7 @@ def main(dmd_folder):
         })
     print(f"  {len(barcodes)} barcode entries built")
 
-    # ── 8. Write output files ─────────────────────────────────────────────────
+    # 8. Write output files
     out_dir = os.path.dirname(os.path.abspath(__file__))
     meds_path = os.path.join(out_dir, 'nhs_medicines.json')
     barcodes_path = os.path.join(out_dir, 'nhs_barcodes.json')

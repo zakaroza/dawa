@@ -1254,7 +1254,7 @@ export default function ChatbotScreen({ route }) {
       if (ocrCancelRef.current) return;
       setMedicineLoadingText(t(lang, 'ocrReading'));
 
-      // API key loaded from app/.env — never hardcode secrets in source files.
+      // API key loaded from app/.env: never hardcode secrets in source files.
       // Same approach as the prescription scanner in RemindersScreen (confirmed working):
       // enough output tokens for the model's thinking, and a fallback model when overloaded.
       const geminiKey = process.env.EXPO_PUBLIC_GEMINI_API_KEY;
@@ -1498,7 +1498,7 @@ export default function ChatbotScreen({ route }) {
       }]);
       requestEvidenceTag(silent ? messages.length : updatedMessages.length, result.englishText ?? reply);
 
-      // Symptom-based DB search — parse medicine names from response text locally
+      // Symptom-based DB search: parse medicine names from response text locally
       if (!suppressMedicineSuggestions) try {
         const responseText = (result.englishText ?? reply).toLowerCase();
         // Split response into candidate phrases (1 to 3 consecutive words)
@@ -1565,7 +1565,7 @@ export default function ChatbotScreen({ route }) {
 
     const effectiveProfile = activeProfile ?? (profiles.length === 1 ? profiles[0] : null);
 
-    // Suitability trigger — must run before profile auto-select early return.
+    // Suitability trigger: must run before profile auto-select early return.
     const suitabilityKeywords = [
       'can i take', 'is it safe', 'safe for me', 'suitable for me',
       'should i take', 'is this ok', 'can i use', 'واش نقدر ناخد',

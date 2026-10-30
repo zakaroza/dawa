@@ -545,18 +545,18 @@ export default function RemindersScreen({ visible, onClose, lang, initialMedicin
   const [selectedProfileId, setSelectedProfileId] = useState(profileId);
   const [profileFilter, setProfileFilter] = useState(profileId ?? null);
 
-  // Step 1 — medicine name
+  // Step 1: medicine name
   const [medicineName, setMedicineName] = useState('');
   const [dose, setDose] = useState('');
   const [instructions, setInstructions] = useState('');
   const [scannerVisible, setScannerVisible] = useState(false);
   const [cameraPermission, requestCameraPermission] = useCameraPermissions();
 
-  // Step 2 — schedule
+  // Step 2: schedule
   const [timesPerDay, setTimesPerDay] = useState(1);
   const [timeSlots, setTimeSlots] = useState([{ ...DEFAULT_TIMES[0] }]);
 
-  // Step 3 — duration
+  // Step 3: duration
   const [noEndDate, setNoEndDate] = useState(true);
   const [durationDays, setDurationDays] = useState('');
   const [durationMode, setDurationMode] = useState('days'); // 'days' | 'date'
@@ -679,7 +679,7 @@ export default function RemindersScreen({ visible, onClose, lang, initialMedicin
       if (!photo?.base64) return;
       setProcessingPhoto(true);
 
-      // API key loaded from app/.env — never hardcode secrets in source files.
+      // API key loaded from app/.env: never hardcode secrets in source files.
       const groqVisionKey = process.env.EXPO_PUBLIC_GROQ_API_KEY;
       const controller = new AbortController();
       const timeoutId = setTimeout(() => controller.abort(), 35000);
@@ -720,10 +720,10 @@ export default function RemindersScreen({ visible, onClose, lang, initialMedicin
       const rawVisionContent = orJson.choices?.[0]?.message?.content ?? '';
       let extractedName = '';
       if (rawVisionContent.includes('</think>')) {
-        // Reasoning model with closing tag — take everything after </think>
+        // Reasoning model with closing tag: take everything after </think>
         extractedName = rawVisionContent.split('</think>').pop().trim();
       } else {
-        // Reasoning model without closing tag — last meaningful line is the answer
+        // Reasoning model without closing tag: last meaningful line is the answer
         const lines = rawVisionContent.split('\n').map(l => l.trim()).filter(Boolean);
         extractedName = [...lines].reverse().find(
           l => !l.startsWith('<') && !l.startsWith('*') && !l.startsWith('-') && !/^\d+\./.test(l)
@@ -740,7 +740,7 @@ export default function RemindersScreen({ visible, onClose, lang, initialMedicin
         return;
       }
 
-      // Multiple results — show picker with DB toggle
+      // Multiple results: show picker with DB toggle
       setPhotoHits(hits);
       setPhotoDbFilter(lang === 'ar' ? 'MA' : 'UK');
     } catch {

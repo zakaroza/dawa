@@ -3,7 +3,7 @@ import ammpsMedicinesData from '../data/ammps_medicines.json';
 import nhsBarcodesData from '../data/nhs_barcodes.json';
 import nhsMedicinesData from '../data/nhs_medicines.json';
 
-// ── Barcode Maps (O(1) lookup) ─────────────────────────────────────────────
+// Barcode Maps (O(1) lookup)
 const ammpsBarcodeMap = new Map();
 for (const entry of ammpsBarcodesData) {
   if (entry.ean13 && entry.ean13 !== '-') {
@@ -28,7 +28,7 @@ function normalizeForMatch(value) {
     .trim();
 }
 
-// ── Barcode Lookup ─────────────────────────────────────────────────────────
+// Barcode Lookup
 export function lookupBarcode(ean13) {
   const barcodeEntry = ammpsBarcodeMap.get(ean13) ?? nhsBarcodeMap.get(ean13) ?? null;
 
@@ -92,7 +92,7 @@ export function lookupBarcode(ean13) {
   return { barcodeEntry, medicines, found: true, db };
 }
 
-// ── Name Search (both databases, interleaved) ──────────────────────────────
+// Name Search (both databases, interleaved)
 export function searchByName(query) {
   if (!query || query.trim().length < 2) return [];
   const q = query.trim().toUpperCase();

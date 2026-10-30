@@ -24,3 +24,6 @@ __pycache__/
 Thumbs.db
 .vscode/
 *.bak*
+
+# Office lock files
+~$*
